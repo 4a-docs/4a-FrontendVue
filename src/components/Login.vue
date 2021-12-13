@@ -1,16 +1,16 @@
 <template>
     <div>
-        <h1>Funciona</h1>
+        sirvio
     </div>
 </template>
 
 <script>
+
     export default{
         name:"LogIn",
-        data:{},
+        data: function () {},
         methods:{},
-        created: function(){}
-
+        created: function () {}
     }
 </script>
 
