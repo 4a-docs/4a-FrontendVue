@@ -3,18 +3,49 @@
     <div class = "header">
       <h1>Health Book</h1>
       <nav>
+<<<<<<< refs/remotes/origin/Laura
         <button > INGRESO </button>
         <button > REGISTRO </button>
       </nav>  
     </div>
     
   </div>
+=======
+        <button v-on:click="loadLogIn"> INGRESO </button>
+        <button > REGISTRO </button>
+      </nav>  
+    </div>
+    <div>
+    <router-view></router-view>
+    </div>
+  </div>
+
+
+>>>>>>> local
 </template>
 
 
+<<<<<<< refs/remotes/origin/Laura
 
 <script>
    
+=======
+</style>
+
+<script>
+export default {
+    name:"App",
+    data: function() {},
+    methods:{
+      loadLogIn(){
+        this.$router.push({name:"logIn"})
+      }
+    },
+    created: function(){
+      this.loadLogIn()
+    }
+}
+>>>>>>> local
 </script>
 
 
@@ -56,4 +87,9 @@
     border: 2px solid #72ccf0;
     
   }
+<<<<<<< refs/remotes/origin/Laura
 </style>
+=======
+  
+  </style>
+>>>>>>> local
