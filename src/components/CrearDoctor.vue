@@ -44,6 +44,7 @@ export default {
       await this.$apollo.mutate({
         mutation:gql`
         mutation DoctorCreate($doctorInformation: DoctorCreateInput) {
+<<<<<<< HEAD
           doctorCreate(doctorInformation: $doctorInformation) {
             id
             name
@@ -52,6 +53,16 @@ export default {
             role
             }
         }
+=======
+        doctorCreate(doctorInformation: $doctorInformation) {
+        id
+        name
+        last_name
+        email
+        role
+        }
+      }
+>>>>>>> Santiago
       `, 
       variables: {
         doctorInformation: this.doctorInformation

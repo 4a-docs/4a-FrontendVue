@@ -3,18 +3,46 @@
     <div class = "header">
       <h1>Health Book</h1>
       <nav>
+<<<<<<< HEAD
         <button > INGRESO </button>
         <button > REGISTRO </button>
       </nav>  
     </div>
     
   </div>
+=======
+        <button v-on:click="loadLogIn"> INGRESO </button>
+        <button > REGISTRO </button>
+      </nav>  
+    </div>
+    <div>
+    <router-view></router-view>
+    </div>
+  </div>
+  
+
+>>>>>>> Santiago
 </template>
 
 
 
 <script>
+<<<<<<< HEAD
    
+=======
+export default {
+    name:"App",
+    data: function() {},
+    methods:{
+      loadLogIn(){
+        this.$router.push({name:"logIn"})
+      }
+    },
+    created: function(){
+      this.loadLogIn()
+    }
+}
+>>>>>>> Santiago
 </script>
 
 
@@ -56,4 +84,9 @@
     border: 2px solid #72ccf0;
     
   }
+<<<<<<< HEAD
 </style>
+=======
+  
+  </style>
+>>>>>>> Santiago
