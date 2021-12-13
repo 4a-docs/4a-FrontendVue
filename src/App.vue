@@ -3,14 +3,6 @@
     <div class = "header">
       <h1>Health Book</h1>
       <nav>
-<<<<<<< refs/remotes/origin/Laura
-        <button > INGRESO </button>
-        <button > REGISTRO </button>
-      </nav>  
-    </div>
-    
-  </div>
-=======
         <button v-on:click="loadLogIn"> INGRESO </button>
         <button > REGISTRO </button>
       </nav>  
@@ -19,18 +11,7 @@
     <router-view></router-view>
     </div>
   </div>
-
-
->>>>>>> local
 </template>
-
-
-<<<<<<< refs/remotes/origin/Laura
-
-<script>
-   
-=======
-</style>
 
 <script>
 export default {
@@ -45,7 +26,7 @@ export default {
       this.loadLogIn()
     }
 }
->>>>>>> local
+
 </script>
 
 
@@ -87,9 +68,4 @@ export default {
     border: 2px solid #72ccf0;
     
   }
-<<<<<<< refs/remotes/origin/Laura
 </style>
-=======
-  
-  </style>
->>>>>>> local
